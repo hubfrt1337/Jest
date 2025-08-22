@@ -1,5 +1,4 @@
-export { calculator }
-const calculator = {
+export const calculator = {
     add: function(a, b){
         if(!checkType(a,b)){
             return false;
